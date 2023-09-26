@@ -1,3 +1,5 @@
 /target
 /dist
 /notes
+Cargo.lock
+poetry.lock
