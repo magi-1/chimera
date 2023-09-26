@@ -1,9 +1,11 @@
 # Chimera
 
 ---
+
 **Scylla** - In Greek mythology, Scylla was a sea monster with multiple heads and a lower body consisting of dog heads and tentacles. Some artistic depictions give her crab-like legs.
 
 **Ouroboros** - An ancient symbol depicting a serpent eating its own tail, often interpreted as a symbol for eternal cyclical renewal or a cycle of life, death, and rebirth.
+
 ---
 
 # Installation
