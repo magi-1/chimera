@@ -1,0 +1,16 @@
+[package]
+name = "scylla"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "scylla"
+path = "scylla/lib.rs"
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+pyo3 = { version = "0.18.0", features = ["extension-module"] }
+
+[[bin]]
+name = "stick"
+path = "scylla/bin/stick.rs"

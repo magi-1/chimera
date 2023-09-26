@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "chimera"
+version = "0.1.0"
+description = "Python + Rust poetry project"
+authors = ["magi-1"]
+readme = "README.md"
+packages = [{ include = "oura"}]   
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[build-system]
+requires = ["maturin>=0.14,<0.15"]
+build-backend = "maturin"
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+release = true
+python-source = "oura"
