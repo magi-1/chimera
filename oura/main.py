@@ -1,4 +1,4 @@
-import scylla
+from scylla import tryme
 
-x = scylla.drone_test()
-print(x)
+if __name__ == "__main__":
+    tryme()
