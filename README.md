@@ -4,7 +4,11 @@
 
 This installs a boiler plate python [(poetry)](https://python-poetry.org/docs/) project with rust bindings [(pyo3)](https://docs.rs/pyo3/latest/pyo3/). This development environment can streamline simulation and machine learning workflows.  
 
-Install poetry and maturin with pipx by executing `./install.sh`
+```shell
+pipx install poetry
+pip install maturin
+scripts/install.sh
+```
 
 ---
 
